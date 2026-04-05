@@ -34,5 +34,5 @@ yarn-error.log*
 next-env.d.ts
 
 # Private — internal planning, tracking, business context
-docs/
+docs/internal/
 CLAUDE.md
