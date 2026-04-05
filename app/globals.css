@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+@theme inline {
+  /* Brand Colors — Earth Tones */
+  --color-forest: #2D5016;
+  --color-forest-light: #3A6B1E;
+  --color-forest-dark: #1E3A0E;
+  --color-cream: #FAF7F2;
+  --color-cream-dark: #F0EBE1;
+  --color-charcoal: #2C2C2C;
+  --color-charcoal-light: #4A4A4A;
+  --color-amber: #C4922A;
+  --color-amber-light: #D4A73A;
+  --color-terracotta: #C4734B;
+
+  /* Semantic Colors */
+  --color-background: var(--color-cream);
+  --color-foreground: var(--color-charcoal);
+  --color-primary: var(--color-forest);
+  --color-accent: var(--color-amber);
+
+  /* Fonts */
+  --font-sans: var(--font-dm-sans);
+}
+
+body {
+  background: var(--color-background);
+  color: var(--color-foreground);
+  font-family: var(--font-sans), system-ui, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-sans), system-ui, sans-serif;
+  color: var(--color-charcoal);
+}
+
+a {
+  color: var(--color-forest);
+  transition: color 0.15s ease;
+}
+
+a:hover {
+  color: var(--color-forest-light);
+}
